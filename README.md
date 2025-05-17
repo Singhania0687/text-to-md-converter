@@ -67,4 +67,5 @@ Click “Download as .md” to save your markdown. <br>
 
 ## 📸 Screenshot
 
+![Text to Markdown Screenshot](https://github.com/Singhania0687/text-to-md-converter/blob/main/scrnshoots.png?raw=true)
 
