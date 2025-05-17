@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Text to Markdown Converter</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Text to Markdown Converter</h1>
+
+    <div class="upload-area" id="dropZone">
+      <p>Drag & Drop .txt File Here or</p>
+      <input type="file" id="fileInput" accept=".txt"/>
+    </div>
+
+    <textarea id="inputText" placeholder="Type or paste your text..."></textarea>
+
+    <div class="buttons">
+      <button onclick="downloadMarkdown()">Download as .md</button>
+    </div>
+
+    <h2>Markdown Preview</h2>
+    <div id="markdownPreview" class="preview"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
